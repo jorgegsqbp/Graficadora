@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Mi dibujo </title>
+  </head>
+  <body>
+    <h1><center> Graficadora </center> </h1>
+    <p>
+      <center>Este es el diseño de una graficadora de ecuaciones.</center>
+    </p>
+  <p>
+  <center>Ecuación: <input type = "text" id="x2" /> x<sup>2</sup> + <input type = "text" id="x"/> x + <input type = "text" id = "const"/>
+
+   <input type = "button" value = "Calcular" id = "boton"/></center><br>
+   <center><h2><strong><u>Tabular:</u></strong></h2></center><br>
+     Valor inicial:
+     <input type = "text"  id="inicial"/>
+     <br><br>
+     Valor final:
+     <input type = "text" id="final" />
+     <br>
+  </p>
+    <p>
+    <center>  <table border="1"> </center>
+              <tr>
+                <td>
+                  <center><canvas width="800", height="800" id="dibujo"></canvas> </center>
+                  <script src="dibujo.js">
+                  </script>
+                </td>
+                <td>
+
+                      <br>
+                      <center><table border="1" width = "150" height = "300" id="tablita"></center>
+                        <tr>
+                          <td>
+                            <center><strong> X </strong></center>
+                          </td>
+                          <td>
+                            <center><strong> Y </strong></center>
+                          </td>
+                        </tr>
+
+                      </table>
+
+                </td>
+              </tr>
+            </table>
+    </p>
+    <p>
+      La gráfica.
+    </p>
+  </body>
+</html>
